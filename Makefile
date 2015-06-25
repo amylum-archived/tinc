@@ -5,7 +5,7 @@ BUILD_DIR = /tmp/$(PACKAGE)-build
 RELEASE_DIR = /tmp/$(PACKAGE)-release
 RELEASE_FILE = /tmp/$(PACKAGE).tar.gz
 
-PACKAGE_VERSION = fixme
+PACKAGE_VERSION = $$(awk '/^VERSION/ { print $3 }' $(BUILD_DIR)/src/Makefile)
 PATCH_VERSION = $$(cat version)
 VERSION = $(PACKAGE_VERSION)-$(PATCH_VERSION)
 
@@ -25,10 +25,10 @@ container:
 build: submodule
 	rm -rf $(BUILD_DIR)
 	cp -R upstream $(BUILD_DIR)
-	CC=musl-gcc make -C $(BUILD_DIR)
-	mkdir -p $(RELEASE_DIR)/usr/bin $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)
-	cp upstream/LICENSE $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)/LICENSE
-	cp $(BUILD_DIR)/bin/{tenyks,tenyksctl} $(RELEASE_DIR)/usr/bin/
+	cd $(BUILD_DIR) && autoreconf -i && ./configure --prefix=$(RELEASE_DIR)
+	make -C $(BUILD_DIR) install
+	mkdir -p $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)
+	cp upstream/COPYING $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)/LICENSE
 	cd $(RELEASE_DIR) && tar -czvf $(RELEASE_FILE) *
 
 version:
