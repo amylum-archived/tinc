@@ -5,7 +5,7 @@ BUILD_DIR = /tmp/$(PACKAGE)-build
 RELEASE_DIR = /tmp/$(PACKAGE)-release
 RELEASE_FILE = /tmp/$(PACKAGE).tar.gz
 
-PACKAGE_VERSION = $$(awk '/^VERSION/ { print $3 }' $(BUILD_DIR)/src/Makefile)
+PACKAGE_VERSION = $$(awk '/^VERSION/ { print $$3 }' $(BUILD_DIR)/src/Makefile)
 PATCH_VERSION = $$(cat version)
 VERSION = $(PACKAGE_VERSION)-$(PATCH_VERSION)
 
