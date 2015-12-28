@@ -1,0 +1,12 @@
+item do
+  expected do
+    url_xpath
+    url 'http://tinc-vpn.org/'
+    xpath '//*[@id="content"]/p[1]/a'
+  end
+
+  actual do
+    git_tag
+    regex /^(.*)-\d+$/
+  end
+end
