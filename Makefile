@@ -6,7 +6,7 @@ RELEASE_DIR = /tmp/$(PACKAGE)-release
 RELEASE_FILE = /tmp/$(PACKAGE).tar.gz
 PATH_FLAGS = --prefix=$(RELEASE_DIR) --bindir=$(RELEASE_DIR)/usr/bin --sbindir=$(RELEASE_DIR)/usr/bin --datarootdir=$(RELEASE_DIR)/usr/share
 
-PACKAGE_VERSION = $$(awk '/^VERSION/ { print $$3 }' $(BUILD_DIR)/src/Makefile)
+PACKAGE_VERSION = $$(git --git-dir=upstream/.git describe --tags | sed 's/release-//')
 PATCH_VERSION = $$(cat version)
 VERSION = $(PACKAGE_VERSION)-$(PATCH_VERSION)
 
