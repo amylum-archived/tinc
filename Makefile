@@ -4,7 +4,7 @@ ORG = amylum
 BUILD_DIR = /tmp/$(PACKAGE)-build
 RELEASE_DIR = /tmp/$(PACKAGE)-release
 RELEASE_FILE = /tmp/$(PACKAGE).tar.gz
-PATH_FLAGS = --prefix=$(RELEASE_DIR) --bindir=$(RELEASE_DIR)/usr/bin --sbindir=$(RELEASE_DIR)/usr/bin --datarootdir=$(RELEASE_DIR)/usr/share
+PATH_FLAGS = --prefix=/usr --sysconfdir=/etc --localstatedir=/var --sbindir=/usr/bin
 
 PACKAGE_VERSION = $$(git --git-dir=upstream/.git describe --tags | sed 's/release-//')
 PATCH_VERSION = $$(cat version)
@@ -27,7 +27,7 @@ build: submodule
 	rm -rf $(BUILD_DIR)
 	cp -R upstream $(BUILD_DIR)
 	cd $(BUILD_DIR) && autoreconf -i && ./configure $(PATH_FLAGS)
-	make -C $(BUILD_DIR) install
+	make -C $(BUILD_DIR) DESTDIR=$(RELEASE_DIR) install
 	mkdir -p $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)
 	cp upstream/COPYING $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)/LICENSE
 	cd $(RELEASE_DIR) && tar -czvf $(RELEASE_FILE) *
