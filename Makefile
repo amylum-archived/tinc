@@ -28,6 +28,7 @@ build: submodule
 	cp -R upstream $(BUILD_DIR)
 	cd $(BUILD_DIR) && autoreconf -i && ./configure $(PATH_FLAGS)
 	make -C $(BUILD_DIR) DESTDIR=$(RELEASE_DIR) install
+	rm -tf $(RELEASE_DIR)/usr/share/info
 	mkdir -p $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)
 	cp upstream/COPYING $(RELEASE_DIR)/usr/share/licenses/$(PACKAGE)/LICENSE
 	cd $(RELEASE_DIR) && tar -czvf $(RELEASE_FILE) *
