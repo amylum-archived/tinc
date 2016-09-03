@@ -1,0 +1,24 @@
+name 'tinc'
+org 'amylum'
+
+license 'COPYING'
+
+configure_flags(
+  prefix: '/usr',
+  sysconfdir: '/etc',
+  localstatedir: '/var',
+  sbindir: '/usr/bin'
+)
+
+harden
+
+build do
+  run 'autoreconf -i'
+  configure
+  make
+  install
+end
+
+test do
+  run 'tinc version'
+end
