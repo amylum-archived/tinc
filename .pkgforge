@@ -3,6 +3,10 @@ org 'amylum'
 
 license 'COPYING'
 
+deps(
+  'linux-api-headers': '4.8-rc4-1'
+)
+
 configure_flags(
   prefix: '/usr',
   sysconfdir: '/etc',
@@ -10,6 +14,7 @@ configure_flags(
   sbindir: '/usr/bin'
 )
 
+cflags
 harden
 
 build do
