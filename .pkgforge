@@ -6,7 +6,8 @@ license 'COPYING'
 deps(
   'linux-api-headers': '4.9-rc3-2',
   ncurses: '6.0-3',
-  readline: '7.0-1'
+  readline: '7.0-1',
+  zlib: '1.2.8-4'
 )
 
 configure_flags(
