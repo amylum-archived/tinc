@@ -4,7 +4,7 @@ org 'amylum'
 license 'COPYING'
 
 deps(
-  'linux-api-headers': '4.9-rc6-1',
+  'linux-api-headers': '4.9-1',
   ncurses: '6.0-20161203-1',
   readline: '7.0-4',
   zlib: '1.2.8-4',
