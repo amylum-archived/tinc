@@ -5,11 +5,11 @@ license 'COPYING'
 
 deps(
   'linux-api-headers': '4.9-1',
-  ncurses: '6.0-20161224-1',
-  readline: '7.0-7',
-  zlib: '1.2.8-4',
+  ncurses: '6.0-20161231-1',
+  readline: '7.0-8',
+  zlib: '1.2.10-1',
   lzo: '2.09-1',
-  openssl: '1.0.2j-1'
+  openssl: '1.0.2j-3'
 )
 
 configure_flags(
