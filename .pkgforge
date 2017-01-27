@@ -4,12 +4,12 @@ org 'amylum'
 license 'COPYING'
 
 deps(
-  'linux-api-headers': '4.9.5-1',
+  'linux-api-headers': '4.9.6-1',
   ncurses: '6.0-20170121-1',
   readline: '7.0-10',
   zlib: '1.2.11-1',
   lzo: '2.09-1',
-  openssl: '1.0.2j-4'
+  openssl: '1.0.2k-1'
 )
 
 configure_flags(
