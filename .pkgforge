@@ -5,8 +5,8 @@ license 'COPYING'
 
 deps(
   'linux-api-headers': '4.10-1',
-  ncurses: '6.0-20170318-1',
-  readline: '7.0-17',
+  ncurses: '6.0-20170401-1',
+  readline: '7.0-18',
   zlib: '1.2.11-1',
   lzo: '2.10-1',
   openssl: '1.0.2k-1'
