@@ -6,27 +6,27 @@ license 'COPYING'
 deps(
   'linux-api-headers': {
     version: '4.12-1',
-    checksum: 'e87e1ebdb2b51d316efb68b4a52870c377145aa6ace67c14c043b70021c9f29d538fc9ec68610ec1325206579ea65c7cecc545bba27e4afa0fbf26a3ebd4efe0'
+    checksum: '25d3672456a93cc7f6743d4b2c227ad7a9456f4ec2a9f09ab7f2e9e6cb56aeaa'
   },
   ncurses: {
     version: '6.0-20170827-1',
-    checksum: '8a87a1f00d41960c58cb3e48d798cfb1a668744c311dc998b0d652535a517a4dcdfe426c4aedfd2a351a3f685d1b7d6e560145b88b13a40c206c3b56ed2c42b3'
+    checksum: '3ae94c220d9a31c72ea6ba03afde6e7081c028fc039216201e7a744995e1d1c3'
   },
   readline: {
     version: '7.0-28',
-    checksum: 'bfa993f5a0955207915ec70ba176bf5bfb22fe6d51d8d9b88b1d52a81ffa3e2b26d5668b5fc26b815ae714c3ef1045943debd309f9d2ce9420b5967ab8f8780c'
+    checksum: '3b1a246981e8222a1195775a7d5122c1aa9f8c11fd99da70285f7a5dbfbfe82e'
   },
   zlib: {
     version: '1.2.11-1',
-    checksum: 'f74a9a05df33f013b8e233acf1b3398028958cb2541d9f2c870ea9b579aab67b6eb536eb0d7d05600ab8c928d63f88b40973945bb3eedb5d9705afd606e8ee45'
+    checksum: '5596e2d39ef98e2323ac415f50afa71a433ed65c23e8d1f2723f711f5ffb4f32'
   },
   lzo: {
     version: '2.10-1',
-    checksum: '50ff3c5e75e3aa359c07f40beb32fe9f88b0299791a9638fcd1484a15a0c5798ee878aa760445e3068c935b4eca231a171688ab231103a1e1bec9fc89292d17e'
+    checksum: '67db922b1320bf2856ed8c67a07f433dbab1d410bd1751b81d3909b1d38a578c'
   },
   openssl: {
     version: '1.0.2l-1',
-    checksum: '0abe1b441aaa37e063ea1e445dd72df1fad31748186d578aa1ae50fc285f5442eec9028884993828f5678ac80dc10259122a64d9cf4e1a5856de1c4f5a92bb3b'
+    checksum: '6a46a1a65aa5cadc69a2b01e3ef8fa0a38353f3f7b86c1a772ab5156dd5b2264'
   }
 )
 
