@@ -42,7 +42,7 @@ harden
 
 build do
   run 'autoreconf -i'
-  configure 'LIBS' => '-ltinfo'
+  configure
   make
   install
 end
