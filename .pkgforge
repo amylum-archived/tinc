@@ -9,12 +9,12 @@ deps(
     checksum: '50b2288419fe132c061bdf3d297293011929abc1092ffaa5e523ad6549b4f5fa'
   },
   ncurses: {
-    version: '6.0-20171021-2',
-    checksum: '17550596975fb23889df8c747c509e214dc5c1df5de4670df400dc2bd8a22b1f'
+    version: '6.0-20171028-1',
+    checksum: '548979d3890d9cf6254d9c6329b9faa3918ebf2c1db235c6372e6e4ad6e6ff1f'
   },
   readline: {
-    version: '7.0-37',
-    checksum: '87ef0a25077f047b17fc6e9e915072ae7e327eee2cea6ce8c48107c77b31d81f'
+    version: '7.0-39',
+    checksum: '2e7409a9a5f88f6d20787c60a7931deb0bd6ec87ea98c092ca72e49620961396'
   },
   zlib: {
     version: '1.2.11-1',
@@ -42,7 +42,7 @@ harden
 
 build do
   run 'autoreconf -i'
-  configure
+  configure 'LIBS' => '-ltinfo'
   make
   install
 end
