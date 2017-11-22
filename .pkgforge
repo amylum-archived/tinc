@@ -9,12 +9,12 @@ deps(
     checksum: '106c40ebd4826cf8fda5235cb9619e37d79efea6e64545d64bb78d4a829f29a6'
   },
   ncurses: {
-    version: '6.0-20171111-1',
-    checksum: 'a2381ec095b79ab4877c3904524678ac84a1e33d2df252f3f212f89794fd63fd'
+    version: '6.0-20171118-1',
+    checksum: '48e5bd0b256cc26ac47338bdc911b747c2e886d5114f7aa3e91df030b4976a86'
   },
   readline: {
-    version: '7.0-41',
-    checksum: '820d8c97cf66d3dc57a15dc3b337661c6aeb4a0b1d2f0ef8636d91a475cdf961'
+    version: '7.0-42',
+    checksum: '4143308456c1bf990574a1105fea470b0f6d5d249783c6fa893b025b534e7cbd'
   },
   zlib: {
     version: '1.2.11-1',
@@ -25,8 +25,8 @@ deps(
     checksum: '67db922b1320bf2856ed8c67a07f433dbab1d410bd1751b81d3909b1d38a578c'
   },
   openssl: {
-    version: '1.0.2m-1',
-    checksum: '263c64d3c4cde7f0f695a08453738842ceb6f2273882123e10ba4bbad619f9e0'
+    version: '1.1.0g-1',
+    checksum: 'f70d94ca94f05be4a14438cf29ed4695d9731d023a4b72d30126d826720bc48b'
   }
 )
 
