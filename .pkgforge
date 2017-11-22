@@ -40,8 +40,6 @@ configure_flags(
 cflags
 harden
 
-patch 'openssl-1.1.0.patch'
-
 build do
   run 'autoreconf -i'
   configure
