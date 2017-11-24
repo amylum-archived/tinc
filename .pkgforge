@@ -13,8 +13,8 @@ deps(
     checksum: '48e5bd0b256cc26ac47338bdc911b747c2e886d5114f7aa3e91df030b4976a86'
   },
   readline: {
-    version: '7.0-42',
-    checksum: '4143308456c1bf990574a1105fea470b0f6d5d249783c6fa893b025b534e7cbd'
+    version: '7.0p3-1',
+    checksum: '49945c4b9e160c5beb7728b5f0a63bdab863bb11d3da7d9aabbcc76f90a4f050'
   },
   zlib: {
     version: '1.2.11-1',
