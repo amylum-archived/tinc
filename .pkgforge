@@ -5,16 +5,16 @@ license 'COPYING'
 
 deps(
   'linux-api-headers': {
-    version: '4.14-1',
-    checksum: '106c40ebd4826cf8fda5235cb9619e37d79efea6e64545d64bb78d4a829f29a6'
+    version: '4.15-2',
+    checksum: 'dbfe68e7620b09fe2996d83fe4ae738dddb2486885b9d5ef3dc27ae77d7585ba'
   },
   ncurses: {
-    version: '6.1-20180129-1',
-    checksum: 'a8dc2f58cda01b19c4db27f8bf356140bdfbece5ba70bed28346d78133280b7f'
+    version: '6.1-20180203-1',
+    checksum: 'b882edcba9cc1edf676c32b14e9056c5f3d01d0014066dc455adc0ffb01acee2'
   },
   readline: {
-    version: '7.0p3-9',
-    checksum: 'acf5443fd17ed62caf88bc776f750fc787c556bb345eb9edac26781989aee539'
+    version: '7.0p3-10',
+    checksum: 'a6ed8e14a3018cb159fb5d37a59ee78e4b5e8429d5b9fb562fadbb700bccb3f9'
   },
   zlib: {
     version: '1.2.11-1',
