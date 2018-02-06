@@ -25,8 +25,8 @@ deps(
     checksum: '67db922b1320bf2856ed8c67a07f433dbab1d410bd1751b81d3909b1d38a578c'
   },
   openssl: {
-    version: '1.1.0g-1',
-    checksum: 'f70d94ca94f05be4a14438cf29ed4695d9731d023a4b72d30126d826720bc48b'
+    version: '1.1.0g-2',
+    checksum: 'de874867ea234470f6bc1969f6edaf6494e8b8e9f85c108b4db638cda3888241'
   }
 )
 
