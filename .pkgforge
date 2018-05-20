@@ -9,12 +9,12 @@ deps(
     checksum: '55af258de8663de5ec97db875651eaeecc209b47454dbbf27757d4de595e618d'
   },
   ncurses: {
-    version: '6.1-20180512-1',
-    checksum: 'f609904ee43a4d5a045eb5830188cfd1bcf2771d00e769d66bb596b552574e60'
+    version: '6.1-20180519-1',
+    checksum: '540a7cfe2731f23780091b23c610b0e3987144226ef0c4501df4342e2e25266e'
   },
   readline: {
-    version: '7.0p3-22',
-    checksum: 'aa568a01917e805c73e389474c640cf3970b4d245babdebdfcbde34d24532193'
+    version: '7.0p3-23',
+    checksum: '1715319ef325d513ec0663d774f3c1c3cad33960025cb0fdab097c6bb892d890'
   },
   zlib: {
     version: '1.2.11-1',
