@@ -1,7 +1,7 @@
 tinc
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/tinc/master.svg)](https://circleci.com/gh/amylum/tinc)
+[![Build Status](https://img.shields.io/travis/com/amylum/tinc.svg)](https://travis-ci.com/amylum/tinc)
 [![GitHub release](https://img.shields.io/github/release/amylum/tinc.svg)](https://github.com/amylum/tinc/releases)
 [![GPLv2+ Licensed](http://img.shields.io/badge/license-GPL2+-green.svg)](https://tldrlegal.com/license/gnu-general-public-license-v2)
 
