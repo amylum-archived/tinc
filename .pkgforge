@@ -9,24 +9,24 @@ deps(
     checksum: 'edc8dab0e57cb3868867a86d501eb5f314ad00d87e50957c3ffae113ce967298'
   },
   ncurses: {
-    version: '6.1-20180818-1',
-    checksum: '3a65bb2b1eefdbdabcc6aba9b5d45e132d8e1ef406a73e140549837fb491158f'
+    version: '6.1-20180908-1',
+    checksum: 'd4a3ce8a59ae2c8bac367a993cd2f6952d48cb6f0390db6612f186d177e867cb'
   },
   readline: {
-    version: '7.0p5-12',
-    checksum: 'a65a94e1a154867bad1524af2e2105c276a4e0a4ee604e4c19d3dcf0818b4b00'
+    version: '7.0p5-14',
+    checksum: 'a84b2bc43bbf2f6ca7cd69486fde6923ea2a290ce3e9950d7c93ef461229354f'
   },
   zlib: {
-    version: '1.2.11-1',
-    checksum: '5596e2d39ef98e2323ac415f50afa71a433ed65c23e8d1f2723f711f5ffb4f32'
+    version: '1.2.11-6',
+    checksum: '7da7212123edac6d5d5dc2db8fb10a6af06472578840c51e489e1f391b66c208'
   },
   lzo: {
     version: '2.10-1',
     checksum: '67db922b1320bf2856ed8c67a07f433dbab1d410bd1751b81d3909b1d38a578c'
   },
   openssl: {
-    version: '1.1.0i-1',
-    checksum: '62004bc61c94107134eb16fdb405b36df2246f303bcd58f5d7df87025a6d7804'
+    version: '1.1.0i-2',
+    checksum: 'bdfcd530e741ab1e20e3996463847a851e7ecdb509b7cb227218fb6e96eb0cac'
   }
 )
 
