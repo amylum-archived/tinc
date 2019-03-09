@@ -5,16 +5,16 @@ license 'COPYING'
 
 deps(
   'linux-api-headers': {
-    version: '4.20-1',
-    checksum: 'aed037b2b3fb2df77ca19359a20188d39c25d011febf4d3733d251fa87ca9636'
+    version: '5.0-1',
+    checksum: '0703e1a5406fea7aa0072034e815fc2b3188151732ec61b134b0e54aa3e752ab'
   },
   ncurses: {
-    version: '6.1-20190202-1',
-    checksum: '0b323fde5d57a56d1b56e7d3a5c32f8dd80feb827579987c6170822f3fb54988'
+    version: '6.1-20190302-1',
+    checksum: 'bfa6556d88359b3b2815ae198d9acab192df5bbf87c8a2b2915d6a72da5f7111'
   },
   readline: {
-    version: '8.0-3',
-    checksum: '57581f5d9b2394c7be6685b0edd58f334a3f022249eb2703a4f7d1e9c0fcbe5d'
+    version: '8.0-4',
+    checksum: '41211e7d547a8d69d7f37a27d5b5490014a9d01f2dfac3999ce62ab18a4619ba'
   },
   zlib: {
     version: '1.2.11-6',
@@ -25,8 +25,8 @@ deps(
     checksum: '67db922b1320bf2856ed8c67a07f433dbab1d410bd1751b81d3909b1d38a578c'
   },
   openssl: {
-    version: '1.1.1a-1',
-    checksum: '70b9b57ef55293a4df4cc18776dc56d77d78856960bcc6571f8a009f00faf266'
+    version: '1.1.1b-2',
+    checksum: '9a0aec136778a436d542ef037914e0b7a572c9b6fe4c4f826e5f1a4531ce6799'
   }
 )
 
